@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 DecimalFormat decimalFormat = new DecimalFormat("0.00");
                 // Use the format() method to convert the number to a formatted string
                 String formattedNumber = decimalFormat.format(score);
-                txtDisplay.setText("Your Score is : "+formattedNumber + "");
+                txtDisplay.setText("Your Score is : "+ formattedNumber + "");
 
                 //Conditions
                 if (score <= 30) {
